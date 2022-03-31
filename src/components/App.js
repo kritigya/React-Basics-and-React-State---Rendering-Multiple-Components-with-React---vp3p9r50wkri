@@ -3,12 +3,10 @@ import '../styles/App.css';
 
 const App = () => {
   return (
-    <>
-    <h1 data-ns-test="project-name>instagram</h1>
-    <dl data-ns-test="project-description>my dream project</dl>
-  
-    
-    <>
+  <div id="main">
+      <h1 data-ns-test="project-name">Clone of Ns</h1>
+      <p data-ns-test="project-description">I want to clone Ns app</p>
+    </div>
   )
 }
 
